@@ -10,7 +10,7 @@
 
 .deck-container {
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 1.25em;
+    font-size: 2em;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
     background: #fff;
@@ -21,15 +21,15 @@
 .deck-container .slide {
     background: #fafafa;
 }
-.deck-container h1,
 .deck-container h2,
 .deck-container h3,
 .deck-container h4,
 .deck-container h5 {
     font-weight: normal;
-    border-top: 8px solid #333333;
-    border-bottom: 1px solid #333333;
+    border-top: 6px solid #003aa8;
+    border-bottom:0;
     text-transform: uppercase;
+    color:#ff7021;
 }
 
 .deck-container h1 {
@@ -44,7 +44,8 @@
 .deck-container h2 {
     font-size: 1.5em;
     min-height: 60px;
-    margin-top: 1.5em;
+    margin-top: .7em;
+    padding-top:.2em;
 }
 
 .deck-container h3,
@@ -101,7 +102,7 @@
 .deck-container .slide a:focus,
 .deck-container .slide a:active,
 .deck-container .slide a:visited {
-    color: #c00;
+    color:#ff7021;
     text-decoration: none;
 }
 .deck-container .slide a:hover,
@@ -145,4 +146,8 @@
 .deck-container.deck-menu .deck-current,
 .no-touch .deck-container.deck-menu .slide:hover {
     background: #ddf
+}
+
+.deck-container ul {
+    list-style-type:square;
 }

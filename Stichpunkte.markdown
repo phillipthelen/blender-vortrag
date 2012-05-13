@@ -17,6 +17,8 @@
 - Game Engine
 	- Phsyik engine
 	- Dynamische Beleuchtung
+- Seit 2.5 komplett mit Python scriptbar
+- Extrem Flexible GUI
 
 #Geschichte
 ##1995
@@ -41,8 +43,11 @@ Entwicklung von Blender 2.5 beginnt.
 Beinahe kompletter rewrite des Codes, der teilweise 12 Jahre alt ist.
 UI und interne Datenbehandlung beinahe komplett neu.
 Open Movie Big Buck Bunny fertig gestellt. stark verbesserte haarsimulation
+##2009
+Dritter Open Movie, Sintel
+Ziel Blender 2.5 Produktionsfertig zu machen
 ##Heute
-Finanzierung durch Spenden, Sponsoren und einem shop in dem DVDs und Merch verkauft werden
+Finanzierung durch Spenden, Sponsoren und einem Shop in dem DVDs und Merch verkauft werden
 Ton Roosendaal und ein weiterer Entwickler sind vollzeit beschäftigt und zwei weitere Entwickler Teilzeit.
 Insgesamt 149 Commiter
 32.758 Commits
@@ -53,8 +58,10 @@ Insgesamt 3 Open Movies und 1 Open Game veröffentlicht
 ##Ziele
 Dienste für Benutzer und Entwickler bereitstellen um die Entwicklung von Blender voran zu treiben
 Mechanismen zur Finanzierung der Foundation und der Entwicklung zu entwickeln
-Bestimmte, wic
 ##Organisation
-
+Ton Roosendaal ist Koordinator und hat das letzte Wort (vergleichbar zu Linux/Torvalds)
+Kommunikation der Entwickler über Mailinglisten
+Wöchentliche Entwicklertreffen im IRC
+Neue Funktionen oft von einem Entwickler,
 #Blender Institut
 Steht für Open Projects zur verfügung, unter der Bedingung das die Finanzierung

@@ -10,7 +10,7 @@
 
 .deck-container {
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 2em;
+    font-size: 2.7em;
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
     background: #fff;
@@ -42,10 +42,10 @@
 }
 
 .deck-container h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     min-height: 60px;
-    margin-top: .7em;
-    padding-top:.2em;
+    margin-top: .4em;
+    padding-top:.15em;
 }
 
 .deck-container h3,
@@ -90,11 +90,11 @@
     color: #888;
 }
 .deck-container .slide ::-moz-selection {
-    background: #c00;
+    background: #D38;
     color: #fff;
 }
 .deck-container .slide ::selection {
-    background: #c00;
+    background: #D38;
     color: #fff;
 }
 .deck-container .slide a,
@@ -113,6 +113,7 @@
 .deck-container > .slide .deck-previous {
     opacity: 0.4
 }
+
 .deck-container .deck-prev-link,
 .deck-container .deck-next-link {
     background: #ccc;
@@ -138,6 +139,7 @@
     text-decoration: none;
 }
 .deck-container .deck-status {
+    left:20px;
     font-size: 0.6666em
 }
 .deck-container.deck-menu .slide {
@@ -150,4 +152,8 @@
 
 .deck-container ul {
     list-style-type:square;
+}
+
+.deck-container li {
+    margin-bottom:.2em;
 }
